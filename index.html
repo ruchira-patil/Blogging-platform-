@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>My Blog</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -12,21 +13,76 @@
       <a href="index.html">Home</a>
       <a href="login.html">Login</a>
       <a href="register.html">Register</a>
+
     </nav>
   </header>
 
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to My World of Thoughts</h2>
+      <p>Dive into stories, insights, and ideas that spark curiosity and creativity.</p>
+      <a href="register.html" class="btn">Join the Community</a>
+    </div>
+  </section>
+
   <main>
     <section class="posts">
-      <article>
-        <h2><a href="post.html">Sample Blog Post</a></h2>
+      <article class="card">
+        <h2><a href="blog-post.html">🌟 Sample Blog Post</a></h2>
         <p class="meta">By Admin | April 9, 2025</p>
         <p>This is a preview of a blog post. Click to read more...</p>
       </article>
+
+      <article class="card">
+        <h2><a href="post2.html">🔥 Another Interesting Post</a></h2>
+        <p class="meta">By Admin | April 8, 2025</p>
+        <p>Here's a sneak peek of another article full of insights and value!</p>
+      </article>
     </section>
+
+    <section class="subscribe">
+      <h3>📬 Subscribe to the Newsletter</h3>
+      <p>Get the latest posts delivered right to your inbox.</p>
+      <form action="#" method="post">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <div class="main-container">
+        <section class="posts">
+          <!-- Blog cards (already added earlier) -->
+        </section>
+      
+        <aside class="sidebar">
+          <h3>🔥 Popular Tags</h3>
+          <div class="tags">
+            <span>#tech</span>
+            <span>#design</span>
+            <span>#travel</span>
+            <span>#lifestyle</span>
+          </div>
+      
+          <h3>🗂️ Categories</h3>
+          <ul>
+            <li><a href="web-development.html">Web Development</a></li>
+            <li><a href="personal-growth.html">Personal Growth</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+          </ul>
+      
+          <h3>👤 Featured Author</h3>
+          <div class="author-box">
+            <img src="author.jpg" alt="Author">
+            <p><strong>Alexa Writer</strong><br>Passionate about tech, travel, and telling stories.</p>
+          </div>
+        </aside>
+      </div>
+      
   </main>
 
   <footer>
-    <p>&copy; 2025 Blogging Platform</p>
+    <p>&copy; 2025 Blogging Platform | Made with ❤️</p>
   </footer>
 </body>
 </html>
